@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "803dbc36-2a42-4e6e-ae53-6420d3f3581a",
+		"name": "Weather forecast",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27716083"
+	},
+	"item": [
+		{
+			"name": "hourly forecast",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/hourly-forecast?lat=39.7456&lon=-97.0892",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"hourly-forecast"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "39.7456"
+						},
+						{
+							"key": "lon",
+							"value": "-97.0892"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
