@@ -1,24 +1,38 @@
-# README
+# My Ruby on Rails Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is a Ruby on Rails application for the hourly forecast of weather of particular location.
 
-Things you may want to cover:
+## Requirements
 
-* Ruby version
+- **Ruby version**: 3.0.1
+- **Rails version**: 7.0.8.1
 
-* System dependencies
+## Getting Started
 
-* Configuration
+Follow these steps to set up and run the project locally.
 
-* Database creation
+### 1. Installation
 
-* Database initialization
+Clone the repository to your local machine:
 
-* How to run the test suite
+```bash
+https://github.com/samirlama/weatherforecast-API.git
+cd weatherforecast-API
+```
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+### 2. Install dependencies using Bundler
+```bash 
+bundle install
+```
 
-* ...
+### 3. Start rails server
+```bash 
+rails s
+```
+
+### 4. Test weather forecast api using postman
+* Import the postman collection from root folder to the postman 
+
+
+
