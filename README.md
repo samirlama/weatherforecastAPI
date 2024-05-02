@@ -1,4 +1,4 @@
-# My Ruby on Rails Project
+# Weather Forecast API 
 
 This project is a Ruby on Rails application for the hourly forecast of weather of particular location.
 
